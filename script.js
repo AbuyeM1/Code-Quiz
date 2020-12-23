@@ -38,8 +38,8 @@ var timer = document.querySelector("#startTime");
 var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
 
-// Seconds left is 15 seconds per question:
-var secondsLeft = 60;
+// Seconds left is 12 seconds per question:
+var secondsLeft = 75;
 // Holds interval time
 var holdInterval = 0;
 // Holds penalty time
@@ -94,11 +94,11 @@ function compare(event) {
 
         var createDiv = document.createElement("div");
         createDiv.setAttribute("id", "createDiv");
-        // Correct condition 
+       
         if (element.textContent == questions[questionIndex].answer) {
             score++;
             createDiv.textContent = "Correct! The answer is:  " + questions[questionIndex].answer;
-            // Correct condition 
+            
         } else {
             // Will deduct -5 seconds off secondsLeft for wrong answers
             secondsLeft = secondsLeft - penalty;
