@@ -48,7 +48,7 @@ also this applicatio has a score and results.
     var wrapper = document.querySelector("#wrapper");
 
     // Seconds left is 15 seconds per question:
-    var secondsLeft = 76;
+    var secondsLeft = 60;
     // Holds interval time
     var holdInterval = 0;
     // Holds penalty time
