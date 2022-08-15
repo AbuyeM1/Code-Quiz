@@ -72,7 +72,7 @@ also this applicatio has a score and results.
 
 ## Deployed Link
 
-- https://abuyem1.github.io/Password-Generator/
+- https://abuyem1.github.io/Code-Quiz/S
 
 ## Technonlogy-Use
 
