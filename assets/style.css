@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(247, 252, 251);
+    background-color: rgba(43, 47, 50, 0.228);
 }
 
 #wrapper {
@@ -11,7 +11,7 @@ body {
     
 }
 #startTime {
-    background-color: rgb(125, 127, 129);
+    
     margin-left: 33%;
     padding: 15px 32px;
     font-size: 20px;
@@ -25,7 +25,7 @@ body {
     float: right;
 }
 
-#goBack {
+/* #goBack {
     background-color: rgb(17, 122, 73);
     position: relative;
     padding: 10px;
@@ -36,12 +36,12 @@ body {
     width: auto;
     text-align: center;
     text-decoration: none;
-}
+} */
 
 
 
-#clear {
-    background-color: rgb(190, 182, 182);
+/* #clear {
+    background-color: rgb(199, 92, 92);
     position: relative;
     padding: 10px;
     font-size: 20px;
@@ -57,7 +57,7 @@ button {
     font-size: 24;
     background-color: #247BA0;
     color: white;
-}
+} */
 
 textarea {
     width: 90%;
@@ -111,10 +111,9 @@ body {
 position: absolute;
 left: 20%;
 }
-
-a {
+/* a {
 margin-left: 20%;
-}
+} */
 #goBack {
     
     position: relative;
@@ -143,6 +142,8 @@ left: 10%;
 a {
   margin-left: 10%;
 }
-
+#view {
+    margin-top: 5%;
+}
 
 }
