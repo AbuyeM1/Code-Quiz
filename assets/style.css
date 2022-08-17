@@ -64,12 +64,13 @@ textarea {
     margin: 20px;
 }
 
-#Submit {
-    background-color: rgba(141, 158, 141, 0.986);
+#Submit  {
+    background-color: rgba(48, 80, 78, 0.986);
     margin-left: 33%;
     padding: 15px 32px;
     font-size: 20px;
     color: white;
+    margin-top: 5%;
 }
 
 label {
